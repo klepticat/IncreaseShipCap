@@ -8,6 +8,7 @@ namespace IncreaseShipCap
         private void Awake()
         {
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
+            StartOfRound.Instance.maxShipItemCapacity = 200;
         }
     }
 }
