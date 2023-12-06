@@ -32,7 +32,7 @@ namespace IncreaseShipCap
     public class Patches {
         [HarmonyPatch(typeof(StartOfRound), "Awake")]
         static void Postfix(ref int ___maxShipItemCapacity) {
-            ___maxShipItemCapacity = IncreaseShipCapPlugin.configMaxItemCount.Value - 1;
+            ___maxShipItemCapacity = IncreaseShipCapPlugin.configMaxItemCount.Value;
         }
     }
 }
