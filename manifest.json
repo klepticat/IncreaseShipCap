@@ -1,6 +1,6 @@
 {
     "name": "IncreaseShipCap",
-    "version_number": "0.0.0",
+    "version_number": "1.0.0",
     "website_url": "https://github.com/klepticat/IncreaseShipCap",
     "description": "A Lethal Company mod that increases the item cap on the ship.",
     "dependencies": []
